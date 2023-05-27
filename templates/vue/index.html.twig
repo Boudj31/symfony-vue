@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello VueController!{% endblock %}
+
+{% block body %}
+<h1>Today i start to use Symfony UX with Vue.js<h1>
+<div {{ vue_component('MyComponent', { 'name': 'halbert'}) }}></div>
+
+
+{% endblock %}
